@@ -89,7 +89,7 @@
 		49758CBD24D2701800315D38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					49758CC524D2701800315D38 = {
 						CreatedOnToolsVersion = 12.0;
@@ -251,8 +251,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4A9GH5NN2;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TSOEnabler/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = com.saagarjha.TSOEnabler;
@@ -261,6 +263,7 @@
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saagarjha.TSOEnabler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = kext;
 			};
@@ -270,8 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4A9GH5NN2;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = TSOEnabler/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = com.saagarjha.TSOEnabler;
@@ -280,6 +285,7 @@
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saagarjha.TSOEnabler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = kext;
 			};
